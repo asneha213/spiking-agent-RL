@@ -18,7 +18,7 @@ np.set_printoptions(precision=2)
 action_set = {0:"AU", 1:"AD", 2:"AL", 3:"AR"}
 improvement_array = []
 
-
+# Class for actor-critic module
 class ActorCritic():
     def __init__(self, epsilon, alpha, lda):
         self.epsilon = 0.01
